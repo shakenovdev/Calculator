@@ -1,9 +1,9 @@
 ﻿namespace Calculator
 {
     /// <summary>
-    /// Provides math calculations
+    /// Provides simple math calculations
     /// </summary>
-    internal interface ISimpleCalculator
+    public interface ISimpleCalculator
     {
         /// <summary>
         /// Adds two values

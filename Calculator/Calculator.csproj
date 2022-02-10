@@ -9,7 +9,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<AssemblyName>Calculator</AssemblyName>
+		<AssemblyName>EasyCalculator</AssemblyName>
 		<Authors>Damir Shakenov</Authors>
 		<Company>Damir Shakenov</Company>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>

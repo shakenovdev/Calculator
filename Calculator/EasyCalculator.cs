@@ -1,7 +1,9 @@
-﻿namespace Calculator
+﻿using System;
+
+namespace Calculator
 {
     /// <inheritdoc cref="ISimpleCalculator"/>
-    public class SimpleCalculator : ISimpleCalculator
+    public class EasyCalculator : ISimpleCalculator, IComplexCalculator
     {
         /// <inheritdoc cref="ISimpleCalculator.Add(int, int)"/>
         public int Add(int A, int B)
@@ -25,6 +27,13 @@
         public int Divide(int A, int B)
         {
             return A / B;
+        }
+
+
+        /// <inheritdoc cref="IComplexCalculator.Logarithm(double)"/>
+        public double Logarithm(double A)
+        {
+            return Math.Log(A, 2);
         }
     }
 }
