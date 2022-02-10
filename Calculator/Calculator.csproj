@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Version>1.0.0</Version>
+		<PlatformTarget>anycpu</PlatformTarget>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AssemblyName>Calculator</AssemblyName>
+		<Authors>Damir Shakenov</Authors>
+		<Company>Damir Shakenov</Company>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://calculator.com/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/shakenovdev/Calculator.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIconUrl>https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Calculator-icon.png</PackageIconUrl>
+		<PackageDescription>C# library for calculator</PackageDescription>
+		<PackageReleaseNotes>Initial release of calculator C# library</PackageReleaseNotes>
+		<PackageTags>Microsoft;.NET;Calculator</PackageTags>
+		<Copyright>Damir Shakenov, 2022</Copyright>
+	</PropertyGroup>
+
+</Project>
